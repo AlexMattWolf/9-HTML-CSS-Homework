@@ -1,0 +1,84 @@
+body {
+  background: #d3d3d3;
+  font-family: Times New Roman;
+}
+
+a {
+text-decoration: none;
+}
+
+.link-c {
+	color: gray
+}
+
+.shrinkray {
+	background: white;
+}
+
+@media(max-width: 992px){
+.shrinkray {
+background: royalblue;
+}
+	
+.link-c {
+	color: black
+}
+}
+
+h1 {
+background-color: royalblue; 
+color: white; 
+text-align: center;
+text-decoration-line: none;
+padding-left: 15px;
+padding-right: 15px;
+font-weight: bolder;
+font-style: italic
+}
+
+h4 {
+	color: royalblue;
+	font-weight: bold;
+}
+
+h5 {
+	color: royalblue; 
+	font-size: 20px;
+	font-weight: bold; 
+	text-align: center
+}
+
+hr {
+	margin: 3%;
+}
+
+img {
+	align-content: center;
+}
+
+.tophat {
+padding-left: 5%; 
+padding-right: 5%
+}
+
+p {
+	color:black; 
+	font-size: 18px
+}
+
+.pic{
+height: 80px;
+width: 150%;
+}
+
+.show-me
+{
+visibility: hidden;
+}
+
+@media(max-width: 770px){
+.show-me{
+visibility: visible;
+}	}
+
+
