@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+	
+  <title>Humidity Page</title>
+	
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+  crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="../style.css">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
+  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
+  crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+  crossorigin="anonymous"></script>
+  
+</head>
+	
+<body>
+<nav class="navbar navbar-expand-lg navbar-light shrinkray">
+  <a class="navbar-brand" href="../Landing_Page.html">
+    <h1 class="my-auto">Lattitude</h1>
+  </a>
+  <button class="navbar-toggler shrinkray" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+  aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse bg-white row" id="navbarSupportedContent">
+    <form class="ml-lg-auto ml-md-3 mr-lg-3">
+    <ul class="navbar-nav mr-auto">
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle link-c" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" 
+        aria-expanded="false"> Plots </a>
+          <div class="dropdown-menu" aria-labelledby="Dropdown">
+            <a class="dropdown-item" href="../Temp/Temp.html">Temperature</a>
+            <a class="dropdown-item" href="../Hum/Hum.html">Humidity</a>
+            <a class="dropdown-item" href="../Cloud/Cloud.html">Cloudiness</a>
+            <a class="dropdown-item" href="../Wind/Wind.html">Wind Speed</a>
+          </div>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link link-c" href="../Comp/Comp.html">Comparison</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link link-c" href="../Data/Data.html">Data</a>
+      </li>
+    
+    </ul>
+    </form>
+  </div>
+</nav>
+
+<br>
+
+<div class="container">
+    <div class="row">
+        <div class="bg-white mx-auto my-2 col-lg-7 col-md-11">
+        <div>
+<br>
+        <h4>Summary: Latitude vs. Humidity</h4>
+        <hr>
+        <img src="../Figures/Fig2.png" class="col ml-auto; mr-auto" alt="Temperature">
+        <p>
+          Analyzing Lattitude against Humidity shows no clear pattern, as every point seems to be eveningly distributed. One descerning pattern is that 
+          there are more points above the equator than below. However, this could be to greater land area above the equator.
+        </p> 
+        </div>
+        </div>  
+<br>
+    <div class="bg-white offset-lg-1 col-lg-4 mb-auto mx-auto my-2 cen col-md-11">
+<br>
+    <h4>Visualizations</h4>
+    <hr>
+
+        <div class="container m-auto">
+    <div class="row ml-auto mr-auto">
+                <div class="col-3 col-md-3 col-lg-6">
+        <a href="../Temp/Temp.html">	
+            <img src="../Figures/Fig1.png" alt="Temp" class="col pic">
+        </a>
+        </div>
+    <div class="col-3 col-md-3 col-lg-6">
+        <a href="../Hum/Hum.html">
+            <img src="../Figures/Fig2.png" alt="Humidity" class="col pic">
+        </a>
+    </div>
+    <div class="col-3 col-md-3 col-lg-6">
+        <a href="../Cloud/Cloud.html">
+            <img src="../Figures/Fig3.png" alt="Cloud" class="col pic">
+        </a>
+    </div>
+    <div class="col-3 col-md-3 col-lg-6">
+        <a href="../Wind/Wind.html">
+            <img src="../Figures/Fig4.png" alt="Wind" class="col pic">
+        </a>
+            </div>
+            </div>
+<br>
+    </div>
+</div>
+</div>
+</div>
+</body>
+
+</html>
