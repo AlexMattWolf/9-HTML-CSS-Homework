@@ -81,4 +81,13 @@ visibility: hidden;
 visibility: visible;
 }	}
 
+@media(max-width: 992px){
+.table-responsive{
+font-size: 8px;
+}	}
+
+@media(max-width: 770px){
+.table-responsive{
+font-size: 6px;
+}	}
 
